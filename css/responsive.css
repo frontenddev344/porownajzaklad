@@ -1,0 +1,100 @@
+@media screen and (max-width: 1199px) {
+  section.site-banner {
+    height: 500px;
+  }
+
+  section.site-banner .bar-text h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  /* navbar css for mobile start */
+  .nav-toggler {
+    display: block;
+  }
+
+  .site-navbar {
+    min-height: 60px;
+  }
+
+  .site-navbar ul {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2485b0;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    z-index: 999;
+  }
+
+  .site-navbar ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-navbar ul li a {
+    padding: 25px;
+    color: #fff;
+  }
+
+  .site-navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .site-navbar ul.open {
+    max-height: 100vh;
+    overflow: visible;
+  }
+
+  .content-is-rt {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .location-inner .row .col-lg-4.col-md-6 {
+    margin-bottom: 30px;
+  }
+
+  .comparebet h2 {
+    font-size: 24px;
+
+  }
+
+  footer.footer .knsl-footer-social {
+    margin-bottom: 30px;
+  }
+
+  footer.footer .knsl-footer-about {
+    width: 100%;
+  }
+
+  .diverse-wrapper .row .col-lg-4 {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .location-inner h3 {
+    font-size: 24px;
+
+  }
+
+  .casino-experience-inner h3 {
+    font-size: 24px;
+  }
+
+  .gaming-heading h3 {
+    font-size: 24px;
+  }
+
+  footer.footer {
+    text-align: center;
+  }
+}
