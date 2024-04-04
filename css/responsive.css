@@ -99,3 +99,18 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 575px) {
+  .asian-content {
+    inset: 10px;
+    padding: 16px;
+  }
+
+  .asian-content h3 {
+    font-size: 22px;
+  }
+
+  .casino-experience-inner h3 {
+    font-size: 22px;
+  }
+}
