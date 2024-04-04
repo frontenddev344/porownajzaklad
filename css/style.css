@@ -532,7 +532,7 @@ section.casino-adventure {
     background: url(../images/asian-casino.avif)no-repeat;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 0;
+    padding: 130px 0;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -546,7 +546,7 @@ section.casino-adventure::after {
     inset: 0;
     width: 100%;
     height: 100%;
-    background-color: #04040478;
+    background-color: #040404ab;
     z-index: -1;
 }
 
@@ -577,27 +577,32 @@ section.inner-page.europa {
     background-size: cover;
     background-position: center;
 }
+
 footer.footer {
     background-color: #2485b0;
     padding: 60px 0 0 0;
 
-  }
-  footer.footer img.knsl-footer-logo {
+}
+
+footer.footer img.knsl-footer-logo {
     width: 100%;
     margin-bottom: 33px;
     max-width: 221px;
-  }
-  footer.footer .knsl-footer-about {
+}
+
+footer.footer .knsl-footer-about {
     display: block;
     width: 80%;
     color: #fff;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-  }
-  footer.footer .knsl-footer-social {
+}
+
+footer.footer .knsl-footer-social {
     padding-top: 50px;
-  }
-  footer.footer .knsl-footer-social i {
+}
+
+footer.footer .knsl-footer-social i {
     background: #fff;
     height: 40px;
     width: 40px;
@@ -608,44 +613,51 @@ footer.footer {
     border-radius: 30px;
     transition: all 0.2s;
 }
-  footer.footer .knsl-footer-social i:hover {
+
+footer.footer .knsl-footer-social i:hover {
     background-color: #e9c46a;
     color: #fff;
-  }
-  footer.footer .knsl-footer-social a {
+}
+
+footer.footer .knsl-footer-social a {
     color: #fff;
     margin-right: 10px;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
-  }
-  footer.footer .footer-inner h4 {
+}
+
+footer.footer .footer-inner h4 {
     position: relative;
     margin-bottom: 33px;
     color: #ECFAFB;
     line-height: 30px;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
-  }
-  footer.footer .footer-menu li {
+}
+
+footer.footer .footer-menu li {
     margin-bottom: 20px;
-  }
-  footer.footer ul.footer-menu li a {
+}
+
+footer.footer ul.footer-menu li a {
     color: #fff;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     transition: all 0.3s;
     text-transform: uppercase;
-  }
-  footer.footer ul.footer-menu li a:hover {
+}
+
+footer.footer ul.footer-menu li a:hover {
     color: #e9c46a;
     padding-left: 10px;
-  }
+}
 
 
-  footer.footer .footer-insta a:hover {
+footer.footer .footer-insta a:hover {
     transform: scale(1.05);
-  }
-  footer.footer .footer-insta a img {
+}
+
+footer.footer .footer-insta a img {
     position: absolute;
     border-radius: 5px;
     top: 0;
@@ -658,14 +670,16 @@ footer.footer {
     object-position: center;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-  }
-  footer.footer .knsl-copyright {
+}
+
+footer.footer .knsl-copyright {
     font-size: 15px;
     background-color: rgba(0, 0, 0, 0.15);
     padding: 20px 0;
     margin-top: 60px;
-  }
-  footer.footer .knsl-copyright .container {
+}
+
+footer.footer .knsl-copyright .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -677,20 +691,36 @@ footer.footer {
     align-items: center;
     height: 100%;
     font-family: "Roboto", sans-serif;
-  }
-  footer.footer .copy-text {
+}
+
+footer.footer .copy-text {
     text-align: center;
     width: 100%;
     color: #fff;
     font-family: "Roboto", sans-serif;
     text-transform: capitalize;
-  }
-  footer.footer .copy-text a {
+}
+
+footer.footer .copy-text a {
     color: #e9c46a;
 
-  }
-  .footer-insta a {
+}
+
+.footer-insta a {
     color: #fff;
 }
 
-.footer-insta a i {margin: 0 6px 0 0;}
+.footer-insta a i {
+    margin: 0 6px 0 0;
+}
+
+section.casino-adventure.europa {
+    background: url(../images/European-casino.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section.casino-adventure.american-casino{
+    background: url(../images/americancasino.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}

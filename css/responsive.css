@@ -51,6 +51,7 @@
   .site-navbar ul.open {
     max-height: 100vh;
     overflow: visible;
+    padding-top: 60px;
   }
 
   .content-is-rt {
