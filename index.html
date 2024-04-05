@@ -218,7 +218,14 @@
         </div>
     </footer>
 
+    <div id="cookie-popup">
 
+        <p>Cookie </p>
+        <p>Używamy plików cookie w celu ulepszenia przeglądania strony oraz dostarczenia spersonalizowanych treści.
+        </p>
+
+        <button class="cookie-popup__button">Ok</button>
+    </div>
 
 
 
@@ -241,6 +248,12 @@
             }
         });
 
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $("#cookie-popup button").click(function () {
+            $("#cookie-popup").fadeOut();
+        });
     </script>
 </body>
 

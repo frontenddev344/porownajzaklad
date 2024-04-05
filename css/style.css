@@ -706,8 +706,55 @@ section.casino-adventure.europa {
     background-position: center;
     background-size: cover;
 }
-section.casino-adventure.american-casino{
+
+section.casino-adventure.american-casino {
     background: url(../images/americancasino.jpeg)no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#cookie-popup {
+    position: fixed;
+    z-index: 9999;
+    right: 30px;
+    bottom: 30px;
+    width: 330px;
+    padding: 20px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.85);
+    color: #eee;
+}
+
+#cookie-popup p:first-child {
+    margin: 0;
+    color: #eee;
+    font-weight: 900;
+    color: #00adef;
+}
+
+#cookie-popup p:nth-child(2) {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+
+
+#cookie-popup button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 8px 0;
+    border: 1px solid #00adef;
+    color: #fff;
+    background-color: #00adef;
+
+
+}
+
+#cookie-popup button:hover {
+    background-color: #000;
+    color: #fff;
 }
