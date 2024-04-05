@@ -305,9 +305,6 @@ section.our-location {
 }
 
 
-.location-wrapper figure:hover::after {
-    transform: scale(1);
-}
 
 section.attractions {
     padding: 50px 0;
