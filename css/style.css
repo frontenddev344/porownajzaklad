@@ -171,7 +171,7 @@ main.banner-main {
 }
 
 section.site-banner {
-    background: url(../images/banner.jpg);
+    background: url(../images/Home-banner.jpg);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,7 +351,7 @@ section.inner-page::after {
 }
 
 section.inner-page.privacy {
-    background: url(../images/privacy-policy.jpg);
+    background: url(../images/Privacy-banner.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -406,13 +406,13 @@ section.terms {
 }
 
 section.inner-page.regulamin {
-    background: url(../images/terms-and-conditions.jpg)no-repeat;
+    background: url(../images/Terms-banner.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 section.inner-page.asia {
-    background: url(../images/ASIA.jpg)no-repeat;
+    background: url(../images/Asia-banner.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -567,13 +567,13 @@ section.casino-adventure::after {
 }
 
 section.inner-page.america {
-    background: url(../images/America.jpg)no-repeat;
+    background: url(../images/America-banner.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 section.inner-page.europa {
-    background: url(../images/EUROPA.jpg)no-repeat;
+    background: url(../images/Europe-banner.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
